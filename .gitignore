@@ -2,8 +2,10 @@
 *.pyc
 *.bak
 *.*~
+*.idea
 MANIFEST
 build
 dist
 local_settings.py
-
+env_scripts/siegerc
+env_scripts/urls.txt
