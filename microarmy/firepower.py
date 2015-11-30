@@ -265,9 +265,9 @@ def parse_responses(responses):
 
     for response in responses:
         try:
-            num_trans = response[4].split('\t')[2].strip()[:-5]
-            elapsed = response[6].split('\t')[2].strip()[:-5]
-            tran_rate = response[9].split('\t')[1].strip()[:-10]
+            num_trans = response[-13].split('\t')[2].strip()[:-5]
+            elapsed = response[-11].split('\t')[2].strip()[:-5]
+            tran_rate = response[-8].split('\t')[1].strip()[:-10]
         except IndexError:
             raise UnparsableData(response)
 

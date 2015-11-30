@@ -6,10 +6,10 @@ echo "ubuntu	soft	nofile	1000000" >> /etc/security/limits.conf
 echo "ubuntu	hard	nofile	1000000" >> /etc/security/limits.conf
 
 ### Update
-apt-get update 
+sudo apt-get update
 
 ### Install
-apt-get -y install \
+sudo apt-get -y --force-yes install \
     python-dev \
     build-essential \
     autoconf \

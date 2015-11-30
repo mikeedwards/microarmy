@@ -26,7 +26,7 @@ num_cannons = 5
 placement = 'us-east-1a'
 
 ### ami key from: http://uec-images.ubuntu.com/releases/11.10/release/
-ami_key = 'ami-a7f539ce'
+ami_key = 'ami-3ad5af50'
 instance_type = 't1.micro'
 
 ### enable cloud init, so that a second deploy step is not required
